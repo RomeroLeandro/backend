@@ -65,6 +65,10 @@ const product3 =  {
     date: "2023-01-22"
 }
 
+
+
+
+
 productManager.addProduct(product1)
 productManager.addProduct(product2)
 productManager.addProduct(product3)
