@@ -85,68 +85,71 @@ class ProductManager {
   }
 }
 
-const manager = new ProductManager("./datos.json");
+const manager = new ProductManager("../segundo-desafio/datos.json");
 
 (async () => {
 
   
   // devuelve array vacio
-  const products = await manager.getProducts();
-  console.log('Productos:', products);
+  // const products = await manager.getProducts();
+  // console.log('Productos:', products);
+
+  // const product = await manager.getProductById()
+  // console.log('productById', product)
 
 
   //   agrega nuevo producto al array
-  const newProduct = { tittle: "Teclado",
-  description: "Teclado mecanico RGB",
-  price: 15.000,
-  thumbnail: "teclado-mecanico.png",
-  code: "BC001",
-  stock: 5,
-  date: "2023-01-01" };
-  await manager.addProduct(newProduct);
+  // const newProduct = { tittle: "Teclado",
+  // description: "Teclado mecanico RGB",
+  // price: 15.000,
+  // thumbnail: "teclado-mecanico.png",
+  // code: "BC001",
+  // stock: 5,
+  // date: "2023-01-01" };
+  // await manager.addProduct(newProduct);
 
 
   //   agrega nuevo producto al array
-  const newProduct2 = { tittle: "Auriculares",
-  description: "Auriculares inalambricos",
-  price: 15.000,
-  thumbnail: "auriculares-inalambricos.png",
-  code: "BC003",
-  stock: 21,
-  date: "2023-01-22" };
-  await manager.addProduct(newProduct2);
+  // const newProduct2 = { tittle: "Auriculares",
+  // description: "Auriculares inalambricos",
+  // price: 15.000,
+  // thumbnail: "auriculares-inalambricos.png",
+  // code: "BC003",
+  // stock: 21,
+  // date: "2023-01-22" };
+  // await manager.addProduct(newProduct2);
 
   
   //   agrega nuevo producto al array
-  const newProduct3 = { tittle: "Mouse",
-  description: "Mouse inalambrico",
-  price: 12.000,
-  thumbnail: "mouse-inalambrico.png",
-  code: "BC002",
-  stock: 15,
-  date: "2023-10-05" };
-  await manager.addProduct(newProduct3);
+  // const newProduct3 = { tittle: "Mouse",
+  // description: "Mouse inalambrico",
+  // price: 12.000,
+  // thumbnail: "mouse-inalambrico.png",
+  // code: "BC002",
+  // stock: 15,
+  // date: "2023-10-05" };
+  // await manager.addProduct(newProduct3);
 
 
   //   obtiene el producto segun su id
-  const productId = 1;
-  const product = await manager.getProductById(productId);
-  console.log(`Producto con ID ${productId}:`, product);
+  // const productId = 1;
+  // const product = await manager.getProductById(productId);
+  // console.log(`Producto con ID ${productId}:`, product);
 
 
   //   eliminar producto segun su ID
-  const isDeleted = await manager.deleteProduct(productId);
-  console.log('Producto eliminado:', isDeleted);
+  // const isDeleted = await manager.deleteProduct(productId);
+  // console.log('Producto eliminado:', isDeleted);
 
 
   //   actualizar producto
-  const updatedData = { description: "Teclado gamer mecanico RGB", price: 19 };
-  const isUpdated = await manager.updateProduct(productId, updatedData);
-  console.log('Producto actualizado:', isUpdated);
+  // const updatedData = { description: "Teclado gamer mecanico RGB", price: 19 };
+  // const isUpdated = await manager.updateProduct(productId, updatedData);
+  // console.log('Producto actualizado:', isUpdated);
 
 
-  const updatedProducts = await manager.getProducts();
-  console.log('Productos actualizados:', updatedProducts);
+  // const updatedProducts = await manager.getProducts();
+  // console.log('Productos actualizados:', updatedProducts);
 })();
-
+module.exports = new ProductManager("../segundo-desafio/datos.json");
 

@@ -1,0 +1,102 @@
+[
+  {
+    "title": "Laptop",
+    "description": "Potente computadora portátil",
+    "price": 1200,
+    "thumbnail": "laptop.jpg",
+    "code": "LT001",
+    "stock": 10,
+    "date": "2023-06-23",
+    "id": 1
+  },
+  {
+    "title": "Smartphone",
+    "description": "Teléfono inteligente de última generación",
+    "price": 800,
+    "thumbnail": "smartphone.jpg",
+    "code": "SP001",
+    "stock": 5,
+    "date": "2023-06-23",
+    "id": 2
+  },
+  {
+    "title": "Smart TV",
+    "description": "Televisor con funciones inteligentes",
+    "price": 1500,
+    "thumbnail": "smarttv.jpg",
+    "code": "TV001",
+    "stock": 3,
+    "date": "2023-06-23",
+    "id": 3
+  },
+  {
+    "title": "Tablet",
+    "description": "Dispositivo portátil con pantalla táctil",
+    "price": 500,
+    "thumbnail": "tablet.jpg",
+    "code": "TB001",
+    "stoc": 8,
+    "date": "2023-06-23",
+    "id": 4
+  },
+  {
+    "title": "Cámara DSLR",
+    "description": "Cámara de alta calidad para fotografía profesional",
+    "price": 2000,
+    "thumbnail": "camera.jpg",
+    "code": "CM001",
+    "stock": 2,
+    "date": "2023-06-23",
+    "id": 5
+  },
+  {
+    "title": "Auriculares inalámbricos",
+    "description": "Auriculares con conectividad Bluetooth",
+    "price": 100,
+    "thumbnail": "headphones.jpg",
+    "code": "HD001",
+    "stock": 15,
+    "date": "2023-06-23",
+    "id": 6
+  },
+  {
+    "title": "Impresora",
+    "description": "Impresora de alta resolución",
+    "price": 300,
+    "thumbnail": "printer.jpg",
+    "code": "PR001",
+    "stock": 7,
+    "date": "2023-06-23",
+    "id": 7
+  },
+  {
+    "title": "Consola de videojuegos",
+    "description": "Sistema de entretenimiento para juegos",
+    "price": 400,
+    "thumbnail": "console.jpg",
+    "code": "CS001",
+    "stock": 4,
+    "date": "2023-06-23",
+    "id": 8
+  },
+  {
+    "title": "Altavoz Bluetooth",
+    "description": "Altavoz portátil con conectividad inalámbrica",
+    "price": 80,
+    "thumbnail": "speaker.jpg",
+    "code": "SPK001",
+    "stock": 12,
+    "date": "2023-06-23",
+    "id": 9
+  },
+  {
+    "title": "Monitor",
+    "description": "Pantalla de alta definición para computadoras",
+    "price": 250,
+    "thumbnail": "monitor.jpg",
+    "code": "MN001",
+    "stock": 6,
+    "date": "2023-06-23",
+    "id": 10
+  }
+]
